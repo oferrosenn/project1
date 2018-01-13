@@ -28,7 +28,7 @@ public class LoginController {
         
     
     utilOutput.append(Service.getInstance().login(new User(username,password)));
-        
+      
 	    //When the input is incorrect, user will return an error message.
 	    //All of the error messages returned by user begin with a letter.
 	    if(Character.isLetter(utilOutput.charAt(0)))

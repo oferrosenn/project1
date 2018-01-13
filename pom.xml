@@ -3,17 +3,23 @@
   <groupId>com.revature</groupId>
   <artifactId>1712_dec11_jdbc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ 
+  
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	
+	
+	
 	<dependencies>
 		<!-- OJDB7 Local Maven Repository -->
+		 
 		<dependency>
 			 <groupId>com.oracle</groupId>
             <artifactId>ojdbc7</artifactId>
             <version>12.1.0</version>
-		</dependency>	 
+		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>

@@ -140,7 +140,6 @@ public class DaoImplement implements Dao{
 			String un=user.getUsername().toUpperCase();
 			//ResultSet result;
 			
-				
 			/*
 			CALL LOGIN PROCEDURE
 			The User_Login procedure helps reduce network traffic...
@@ -163,8 +162,8 @@ public class DaoImplement implements Dao{
 				p.registerOutParameter(++statementIndex, java.sql.Types.NUMERIC); //Output 9 - manager flag
 				p.registerOutParameter(++statementIndex, java.sql.Types.NUMERIC); //Output 10 - loggedin flag
 				p.executeQuery();
-						
 				
+								
 				if(p.getString(4).equals("0")) {
 					return new User("Incorrect username!");
 				}

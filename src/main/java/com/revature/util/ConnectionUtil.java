@@ -18,6 +18,7 @@ public final class ConnectionUtil {
 		String username = "oferrosen";
 		String password = "Iceanfire00!";
 		
+		
 		return DriverManager.getConnection(url, username, password);
 		
 	}

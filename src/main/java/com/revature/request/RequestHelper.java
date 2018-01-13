@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 public class RequestHelper {
 	
 	public static String process(HttpServletRequest request) {
+		///System.out.println("abc");
 		switch(request.getRequestURI()) {
 		case "/oferproject1/login.do":
 			return LoginController.login(request);
