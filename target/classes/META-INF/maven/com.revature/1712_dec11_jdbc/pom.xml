@@ -9,7 +9,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
-	
+<!--  
 	<build>
 		<finalName>example</finalName>
 		<plugins>
@@ -25,7 +25,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+-->		
 	
 	<dependencies>
 		<!-- OJDB7 Local Maven Repository -->
