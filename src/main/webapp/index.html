@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Custom Angular Site</title>
+  <base href="/oferproject1/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-Frame-Options" content="allow">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script>
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false,
+        rewriteLinks: false
+    });
+    </script>
+</head>
+<body>
+  <app-root></app-root>
+  <script script type="text/javascript" language="javascript">
+    function setit(){
+     var el = document.getElementById("trainer");
+     if(el.checked)
+       document.getElementById("profile").disabled = false;
+     else
+     {
+      document.getElementById("profile").disabled = true;   
+      document.getElementById("profile").checked = false;
+     }  
+   } 
+ </script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
